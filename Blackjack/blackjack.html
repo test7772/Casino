@@ -14,21 +14,23 @@
       <img id="hidden" src="./Cards/BACK.png" />
     </div>
 
-    <h2>You: <span id="your-sum"></span></h2>
-    <div id="your-cards"></div>
+    <h2>You: <span id="player-sum"></span></h2>
+    <div id="player-cards"></div>
 
     <br />
 
     <form action="Place your bet">
       <label for="quantity">How much do you want to bet?</label>
+      <br />
       <input type="number" id="bet" name="bet" min=".0001" />
-      <input type="submit" value="Bet" />
-    </form>
 
+      <input type="submit" id="submit" value="Bet" />
+    </form>
+    <br />
     <button id="hit">Hit</button>
     <button id="stay">Stay</button>
     <p id="results"></p>
-    <!-- 1) Add a "Play again? Button" 
-         2) Add ability to split-->
+    <button id="repeat">Play again?</button>
+    <!-- 2) Add ability to split-->
   </body>
 </html>

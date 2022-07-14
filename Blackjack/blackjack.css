@@ -2,3 +2,42 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
+
+#dealer-cards img {
+  height: 175 px;
+  width: 125px;
+  margin: 1px;
+}
+
+#player-cards img {
+  height: 175 px;
+  width: 125px;
+  margin: 1px;
+}
+
+#hit {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#stay {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+#submit {
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+}
+#bet {
+  width: 50px;
+  height: 25px;
+  font-size: 20px;
+}
+#repeat {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
